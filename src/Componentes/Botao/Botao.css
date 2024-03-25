@@ -1,0 +1,35 @@
+.botao {
+    background-color: #000000;
+    border-radius: 10px;
+
+    font-weight: 700;
+    font-size: 18px;
+
+    border: none;
+    color: #FFFFFF;
+
+    /* Para que ao passar o cursor 
+       aponte uma "mãozinha". */
+    cursor: pointer;
+
+    padding: 32px;
+    margin: 32px 0;
+
+    /* Levando o botão à extremidade esquerda da
+       seção, pois inicialmente ele estava ficando
+       apenas no meio. */
+    margin-right: 80%;
+
+    /* Definindo o tamanho do botão, pois de outro modo
+       esse estava "quebrando" as linhas, de modo que 
+       "Criar" estava numa linha e "card" em outra. */
+    width: 167px;
+
+    /* Alinhando ao centro o texto circunscrito no botão. */
+    text-align: center;
+
+}
+
+.botao:hover {
+    color: #4CFCB4;
+}

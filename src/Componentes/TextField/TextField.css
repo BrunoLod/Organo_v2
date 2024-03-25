@@ -1,0 +1,44 @@
+.campo {
+
+    margin: 24px 0;
+
+}
+
+.campo label {
+
+    /* O display block quebra o rótulo 
+       composto por nome e input, de modo
+       que faz o último "ir para baixo". */
+
+    display: block;
+    margin-bottom: 8px;
+    font-size: 24px;
+    text-align: left;
+
+}
+
+.campo input {
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+
+    /* Estou dizendo para esse componente "pegar" 
+       100% da tela, o qual será delimitado por 
+       outro componente react, que servirá como 
+       # container. */
+
+    width: 100%;
+
+    border: none;
+    font-size: 24px;
+    padding: 24px;
+
+    /* Esse recurso css é utilizado, pois quando passo o 
+       tamanho como 100%*/
+    box-sizing: border-box;
+}
+
+.campo-color input {
+    height: 70px;
+    padding: 2px, 24px;
+
+}

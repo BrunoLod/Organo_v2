@@ -1,0 +1,82 @@
+.lista-colaboradores {
+    list-style: none; /* Remove os marcadores de lista padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+    margin: 0; /* Remove as margens padrão */
+    display: flex; /* Exibe os itens em linha */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha se não houver espaço suficiente */
+    justify-content: flex-start; /* Alinha os itens no início do contêiner */
+    gap: 10px; /* Espaçamento entre os itens */
+}
+
+
+/* Define o estilo para a classe "colaborador" */
+.colaborador {
+    width: 280px; /* Define a largura para 280 pixels */
+    position: relative;
+}
+
+/* Define o estilo para a classe "cabecalho" dentro da classe "colaborador" */
+.colaborador .cabecalho {
+    border-radius: 10px 10px 0px 0px; /* Define o raio dos cantos do elemento */
+    border-top: 2px solid #000000; /* Adiciona um contorno preto com 1px de largura */
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+}
+
+/* Define o estilo para as imagens dentro da classe "colaborador" */
+.colaborador img {
+    width: 100px; /* Define a largura para 100 pixels */
+    border-radius: 50%; /* Define um raio de borda de 50% para criar uma borda circular */
+    position: relative; /* Define a posição relativa */
+    bottom: -50px; /* Move a imagem para cima em 50 pixels */
+    border: 2px solid #000000; /* Adiciona um contorno preto com 2px de largura */
+}
+
+/* Define o estilo para a classe "rodape" dentro da classe "colaborador" */
+.colaborador .rodape {
+    background: #FFFFFF; /* Define a cor de fundo */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08); /* Adiciona uma sombra */
+    border-radius: 0px 0px 10px 10px; /* Define o raio dos cantos do elemento */
+    padding-top: 90px; /* Adiciona preenchimento superior de 90 pixels */
+    padding-bottom: 40px; /* Adiciona preenchimento inferior de 40 pixels */
+    border-top: 2px solid #000000; /* Adiciona um contorno preto com 2px de largura */
+    border-right: 2px solid #000000; /* Adiciona um contorno preto com 2px de largura */
+    border-bottom: 2px solid #000000; /* Adiciona um contorno preto com 2px de largura */
+    border-left: 2px solid #000000; /* Adiciona um contorno preto com 2px de largura */
+    
+}
+
+/* Define o estilo para os elementos "h4" dentro da classe "rodape" dentro da classe "colaborador" */
+.colaborador .rodape h4 {
+    color: #000000; /* Define a cor do texto */
+    font-size: 18px; /* Define o tamanho da fonte */
+    line-height: 22px; /* Define a altura da linha */
+    font-weight: bold; /* Define o peso da fonte como negrito */
+    margin-bottom: 8px; /* Define a margem inferior como 8 pixels */
+}
+
+/* Define o estilo para os elementos "h5" dentro da classe "rodape" dentro da classe "colaborador" */
+.colaborador .rodape h5 {
+    font-size: 18px; /* Define o tamanho da fonte */
+    line-height: 22px; /* Define a altura da linha */
+    color: #212121; /* Define a cor do texto */
+    padding: 0 16px; /* Adiciona preenchimento de 0 pixels no topo e na parte inferior, 16 pixels à esquerda e à direita */
+    font-weight: 500;
+}
+
+.deletar {
+    position: absolute;
+    right: -10px;
+    top: -17px;
+    cursor: pointer;
+}
+
+.favorito {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.heart-icon.filled {
+    border-color: #000000; /* Altera a cor da borda para vermelho */
+}
+

@@ -1,0 +1,12 @@
+.banner {
+
+    background-color: #000000;
+    text-align: center;
+
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+    max-height: 556px;
+}

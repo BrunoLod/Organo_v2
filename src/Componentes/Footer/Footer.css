@@ -1,0 +1,12 @@
+.rodape {
+
+    background-color: #000000;
+    text-align: center;
+
+}
+
+.rodape img {
+    max-width: 100%;
+    height: auto; /* Isso garante que a proporção da imagem seja mantida */
+    max-height: 233px; /* Define a altura máxima da imagem como 233 pixels */
+}

@@ -1,0 +1,50 @@
+/* Importando as fontes que serão usadas no formulário: */
+
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,&display=swap');
+
+.formulario-container {
+    display: flex;
+
+    /* 
+    
+    Utilizando o flex-wrap para que 
+    ele quebre a linha relativa aos formulários, 
+    na forma que se o tamanho da tela estiver 
+    muito pequena, o formulário à direita irá
+    ficar em baixo do primeiro. 
+    
+    */
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 80px 50px;
+    gap: 35px;
+
+}
+.formulario-container .formulario {
+
+    /* 
+    
+    Recurso flex: 1 garante que numa linha
+    o tamanho dessa seja de 1/2 para cada formulário. 
+    
+    */
+
+    flex: 1;
+    background: #F7F7F7;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    padding: 36px 64px;
+    
+}
+.formulario-container .formulario h2 {
+    font-weight: 500;
+    font-size: 32px;
+    font-family: 'Sarabun', sans-serif;
+    font-style: normal;
+}
+
+.formulario label {
+    font-weight: 500;
+}
+
